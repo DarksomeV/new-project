@@ -252,11 +252,10 @@ blockquote {
 }
 
 .right-sidebar-wrapper{
-	min-width:240px;
-	max-width:250px;
-	height:100%;
-	border:1px solid black;
-	padding:0 15px 15px 15px;
+  min-width: 240px;
+  height: 100%;
+  padding: 0 15px 15px 15px;
+  background-color: #fff;
 }
 
 .right-sidebar{
@@ -271,16 +270,32 @@ blockquote {
 }
 
 .right-sidebar__content{
-	 max-height: 100%;
+	height: 20%;
 }
 
 .right-sidebar .block__content{
-	display: flex;
-	flex-direction:column;
-	overflow:auto;
-	margin-bottom: 30px;
+	height:100%;
 }
 
+.right-sidebar .block__content .item{
+	height:33%;
+	display: flex;
+}
+
+.right-sidebar .block__content .item span{
+	flex:1;
+}
+
+.right-sidebar .block__content span.item__description{
+	margin-left:10px;
+	flex:5;
+}
+
+.right-sidebar .block{
+	height: 100%;
+	overflow: auto;
+	padding-left: 10%;
+}
 .right-sidebar .block__button{
 	font-size: 40px;
 	text-align: center;
