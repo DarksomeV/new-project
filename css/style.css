@@ -4,7 +4,7 @@
 }
 body{
 	margin: 0;
-	background-color: #fff;
+	background-color: #edf1f2;
 	font: 300 15px/1 'Open Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6{
@@ -50,21 +50,39 @@ blockquote {
 .left-sidebar-wrapper{
 	min-width:240px;
 	height:100%;
-	border:1px solid black;
-}
+	}
 
 .left-sidebar-wrapper .left-sidebar{
+	background-color: #4fc8d4;
+	color: #fff;
 	height:100%;
 	display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .left-sidebar__wrapper-block{
-	  display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-sidebar__menu{
+	width: 100%;
+	padding: 0 0 0 10%;
+}
+
+.left-sidebar__menu li{
+	display: flex;
+}
+
+.left-sidebar__menu li+li{
+	margin-top:30px ;
+}
+
+.left-sidebar__menu li i{
+	margin-right: 5%;
 }
 
 .main-content-wrapper{
@@ -82,29 +100,97 @@ blockquote {
 .top-main-content{
 	height:50%;
 	display: flex;
+	margin-bottom: 5%;
 }
 
 .top-main-content__left{
 	flex:1;
+	background-color: #6dddd4;
+	color:#fff;
+	border-top-right-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-main-content__left .top-button{
+	text-align: center;
+ padding: 4px 4px 6px;
+ border-radius:10px;
+ flex: 1;
+}
+.top-main-content__left .content{
+	flex:10;
 }
 
 .top-main-content__right{
 	flex:6;
+	display: flex;
+	flex-direction: column;
+}
+
+.top-main-content__right .top-buttons{
+	flex:1;
+	padding: 4px 4px 6px;
+}
+
+.top-main-content__right .main-content__view-block{
+	flex:10;
+	background-color: #fff;
 }
 
 .bottom-main-content{
-	height:35%;
+	height: 45%;
 }
 
 .bottom-main-content .scroll-block{
-	min-height: 72px;
-  max-height: 100%;
-  overflow: auto;
+	height: 100%;
+ overflow: auto;
 }
+
 .bottom-main-content .scroll-block .row{
 	display: flex;
-  padding-bottom: 10px;
+ padding-bottom: 10px;
+ height: 50%;
 }   
+
+.row__date-block{
+	height: 100%;
+	max-width: 20%;
+	border-radius: 5px;
+	padding: 0.5em 10px 0 10px;
+	background-color: #6dddd4;
+	color:#fff;
+}
+
+.row__date-block .date-icon{
+	font-size: 12px;
+}
+
+.row__date-block .date__day{
+	font-size: 35px;
+}
+
+.row .date{
+	display: flex;
+}
+
+.row .date .date__month{
+	font-size: 11px;
+}
+
+.row__disease-block{
+	display: flex;
+	width: 100%;
+ padding-left: 10px;
+}
+
+.row__disease-block .row-disease-element{
+	display: flex;
+}
+
+.row__disease-block .row-element-title{
+	writing-mode:tb-rl;
+}
 
 .right-sidebar-wrapper{
 	min-width:240px;

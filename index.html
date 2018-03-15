@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,14 +13,14 @@
 			<div class="left-sidebar">
 				<div class="left-sidebar__wrapper-block">
 					<ul class="left-sidebar__menu">
-						<li><a href="#">Пациенты</a></li>
-						<li><a href="#">Регистратура</a></li>
+						<li><i class="fa fa-user" aria-hidden="true"></i><a href="#">Пациенты</a></li>
+						<li><i class="fa fa-check-square" aria-hidden="true"></i><a href="#">Регистратура</a></li>
 					</ul>
 				</div>
 				<div class="left-sidebar__wrapper-block">
 					<ul class="left-sidebar__menu">
-						<li><a href="#">Отзывы</a></li>
-						<li><a href="#">Выход</a></li>
+						<li><i class="fa fa-pencil-square-o" aria-hidden="true"></i><a href="#">Отзывы</a></li>
+						<li><i class="fa fa-sign-out" aria-hidden="true"></i><a href="#">Выход</a></li>
 					</ul>
 				</div>
 			</div>
@@ -51,7 +52,29 @@
 			<div class="bottom-main-content">
 				<div class="scroll-block">
                     <div class="row">
-                        <div class="row-element">
+                        <div class="row__date-block">
+                            <div class="date-icon">
+                                <i class="fa fa-paperclip" aria-hidden="true"></i>
+                            </div>
+                            <div class="date">
+                                <span class="date__day">28</span>
+                                <div class="date__month">
+                                    <span>Февраля</span>
+                                    <span>2018</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /date-block -->
+                        <div class="row__disease-block">
+                        <div class="row-disease-element row__diagnostic">
+                            <div class="row-element-title">
+                                <span>Element</span>
+                            </div>
+                            <div class="row__done">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row-disease-element row__done">
                             <div class="row-element-title">
                                 <span>Element</span>
                             </div>
@@ -59,268 +82,12 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
                         </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
+
                     </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                    <div class="row">
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                        <div class="row-element">
-                            <div class="row-element-title">
-                                <span>Element</span>
-                            </div>
-                            <div class="row-element-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / row -->
-                </div>
 			</div>
 			<!-- /bottom-main-content -->
 			</div>
