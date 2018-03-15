@@ -172,6 +172,7 @@ blockquote {
 
 .row .date{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .row .date .date__month{
@@ -186,6 +187,12 @@ blockquote {
 
 .row__disease-block .row-disease-element{
 	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.row__disease-block .row-element-title-wrapper{
+	height: 100%;
 }
 
 .row__disease-block .row-element-title{
